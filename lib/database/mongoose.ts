@@ -15,7 +15,7 @@ if(!cached) {
     }
 }
 
-export const connectToDb = async () => {
+export const connectToDatabase = async () => {
     console.log('trying to establish connection to db')
     if(cached.conn) return cached.conn;
 
